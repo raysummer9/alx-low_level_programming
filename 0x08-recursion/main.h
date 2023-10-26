@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int compare_string(char *s, int left, int right);
+int wildcmp(char *s1, char *s2);
+int is_palindrome(char *s);
 int prime_a(int a, int b);
 int sqrt_finder(int, int);
 int _putchar(char c);
