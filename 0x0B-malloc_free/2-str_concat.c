@@ -5,7 +5,7 @@
 
 /**
  * str_concat - concatenates two string
- * @s1@: the first string
+ * @s1: the first string
  * @s2: the second string
  * Return: a pointer to the newly allocated concatenated
  * string, or NULL on failure.
