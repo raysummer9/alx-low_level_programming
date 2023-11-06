@@ -1,0 +1,2 @@
+Exploring structures
+strut, typedef
