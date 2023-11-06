@@ -3,8 +3,9 @@
 #include "dog.h"
 
 /**
- * int_dog - initiazize dog
+ * init_dog - initiazize dog
  * @d: pointer to dog
+ * @name: name of dog
  * @age: age of dog
  * @owner: name of owner
  */
