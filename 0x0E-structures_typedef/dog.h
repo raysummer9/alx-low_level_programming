@@ -7,11 +7,13 @@
  * @owner: name of owner
  * Return: retun 0
  */
+
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif
