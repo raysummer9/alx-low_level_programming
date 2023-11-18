@@ -3,6 +3,7 @@
 /**
  * free_list - frees nodes
  * @head: node head
+ * Return: void
  */
 
 void free_list(list_t *head)
@@ -15,8 +16,8 @@ void free_list(list_t *head)
 	while (head->next != NULL)
 	{
 		tmp = head->next;
-		free(head);
 		free(head->str);
+		free(head);
 		head = tmp;
 	}
 	free(head->str);
