@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//printout all the content of av without using ac
+//write a program that prints all the argument without using ac
 
 int main (int ac, char **av)
 {	
