@@ -12,7 +12,7 @@ void err_handler(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read file from %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read file from file %s\n", argv[1]);
 		exit(98);
 	}
 
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(STDERR_FILENO, "%s\n", "Usage: cp from_file to_file");
+		dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to");
 		exit(97);
 	}
 
