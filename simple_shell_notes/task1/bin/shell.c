@@ -1,5 +1,10 @@
 #include "shell.h"
 
+/**
+ * main - main function
+ * Return: void
+ */
+
 int main(void)
 {
 	char cmd[120];
